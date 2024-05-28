@@ -8,12 +8,10 @@
 **Team**
 - Jonas Nothnagel 
 
-
 **Background and Objective:** 
 The United Nations Development Programme (UNDP), founded in 1965, is one of the largest UN entities spanning over 177 countries. Interestingly, UNDP has been publicly posting all their vacancies since 2006. This makes up to over 120000 job postings in 177 countries.
 The purpose of this capstone project is to build a data engineering framework that automatically scrapes all available job postings, transforms the data into an actionable dataset, investigates the dataset and ultimately visualises the data and insights from the analysis in an interactive web application.
 The main objective is to build the robust data engineering backend but also to understand how the job market for international development has evolved over the last years - for example whether technical jobs have become more promiment or what skillsets are most sought after now compared to a few years ago.
-
 
 **Key Features and Components:**
 1. **Data Retrieval:** Automate the retrieval of UNDP job postings. This will include writing a web scraper (Python) and scrape the full dataset. Additionally, the scraper shall be automatically re-run periodically adding any new datapoints to the raw dataset. 
@@ -43,18 +41,6 @@ There are currently around 120000 job postings online which will result in a mul
     
 The Capstone project requires a dataset with at least 1Mio rows - but I hope that this is also acceptable since it will require additional scraping effort and the use-case is of relevance for me. 
  
-
-
-## Potential Use Cases
-
-1. **Real-Time Economic Monitoring:** Continuously monitor and analyze the economic indicators and financial markets to provide real-time insights for economists, policymakers, and financial analysts.
-2. **Predictive Analytics:** Use historical data to develop predictive models that forecast future economic and financial trends.
-3. **Risk Management:** Help financial institutions and businesses manage risk by understanding the impact of economic changes on financial markets.
-4. **Investment Strategies:** Inform investment strategies by identifying correlations between macroeconomic indicators and market performance.
-5. **Policy Impact Analysis:** Evaluate the impact of government interventions on the economy and financial markets, providing valuable insights for policy-making.
-6. **Credit Card Risk Analysis:** Assess credit card volume and delinquency trends to inform risk management strategies for financial institutions.
-
-
 **Next Steps:**
 - Finalize the project plan.
 - Map out all components and add a high-level overview of the components and the interactive (visualisation).
